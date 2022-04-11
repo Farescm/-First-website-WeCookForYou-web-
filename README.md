@@ -2,7 +2,7 @@
 
 First website for a school project
 
-This project wad made by a groupe of 3 people including me who was the project manager.
+![United-Kingdom-Flag-1-icon](https://user-images.githubusercontent.com/93473011/162841578-d22aec18-1b06-4e70-8852-1e91aa10cc4a.png) This project wad made by a groupe of 3 people including me who was the project manager.
 This website was made in HTML/CSS supplemented by a little bit JavaScript. *
 On our site, we present and sell a kitchen product,
 it also possible to launch recipe preparations remotely.
