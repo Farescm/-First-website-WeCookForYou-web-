@@ -8,8 +8,8 @@ On our site, we present and sell a kitchen product,
 it also possible to launch recipe preparations remotely.
 
 
-![FR@1x](https://user-images.githubusercontent.com/93473011/162840931-d649f8dd-4890-4b3c-b81c-bb967a342906.png)
- Ce projet a été effectué par un groupe de 3 personnes dont moi qui ai été chef de projet.
+![FR-France-Flag-icon](https://user-images.githubusercontent.com/93473011/162841212-3e3a4797-6e2d-4ce7-8fec-6f1adcb9efba.png)
+Ce projet a été effectué par un groupe de 3 personnes dont moi qui ai été chef de projet.
 C'est un site web a été réalisé en HTML/CSS complété par un peu de JavaScript.
 Sur notre site, nous réalisons la présentation et la vente d'un produit électroménager (cuisine),
 le site permet aussi de lancer des préparations de recettes à distance.
