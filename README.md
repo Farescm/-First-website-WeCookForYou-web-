@@ -8,7 +8,7 @@ On our site, we present and sell a kitchen product,
 it also possible to launch recipe preparations remotely.
 
 
-Ce projet a été effectué par un groupe de 3 personnes dont moi qui ai été chef de projet.
+FR Ce projet a été effectué par un groupe de 3 personnes dont moi qui ai été chef de projet.
 C'est un site web a été réalisé en HTML/CSS complété par un peu de JavaScript.
 Sur notre site, nous réalisons la présentation et la vente d'un produit électroménager (cuisine),
 le site permet aussi de lancer des préparations de recettes à distance.
