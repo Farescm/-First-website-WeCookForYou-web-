@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+* {
+  font-family: pushster;
+}
+
+body {
+	margin: 0;
+}
+header {
+	display: flex;
+	align-items: center;
+	background-color:#27ae60;
+	box-shadow: 0 4px 10px -2px rgb(99, 99, 99);
+	height: 170px;
+}
+
+header img {
+	width: 200px;
+} 
+
+.Connect
+{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		font-family: 'Roboto', sans-serif;
+		margin-top: 80px;
+}
+form
+{
+	margin-top:1%;
+	background-color:#7AA95C;
+	padding: 2% 3%;
+	border-radius:1%;
+	min-width:15%;
+}
+form h1
+{
+	color:#FAF2EA;
+	text-align:center;
+	font-size: 40px;
+}
+form .social-media
+{
+	margin-top:-1.5%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+form .social-media p
+{
+	padding:1%;
+	margin-left:5%;
+	border-style:solid;
+	border-color:#1E0F1C;
+	border-width:1px;
+	border-radius:100%;
+	width:20px;
+	text-align:center;
+	cursor:pointer;
+	border-color:#FAF2EA;
+	background-color:#FAF2EA;
+}
+form .social-media p.google{
+	color:#db4a39;
+}
+form .social-media p.youtube{
+	color:#c4302b;
+}
+form .social-media p.facebook{
+	color:#3b5998;
+}
+form .social-media p.twitter{
+	color:#00acee;
+}
+form p.choose-email
+{
+	text-align:center;
+	font-size: 24px;
+	color: white;
+}
+form .inputs
+{
+	display:flex;
+	flex-direction:column;
+}
+form .inputs input[type="email"], input[type="password"]
+{
+	padding:10px;
+	border-radius:5px;
+	border:none;
+	background-color:#FAF2EA;
+	margin-bottom:10px;
+	outline:none;
+}
+form p.inscription
+{
+	font-size:14px;
+	margin-bottom:20px;
+}
+form p.inscription span{
+	color:#FAF2EA;
+	
+}
+form button{
+	padding: 10px 25px;
+	border:none;
+	border-radius:5px;
+	background-color:#FAF2EA;
+	font-size:15px;
+	outline:none;
+	cursor:pointer;
+}
+
+.inscription {
+	color: white;
+}
+
+
+
+
+
+footer {
+	position: relative;
+	top: 100px;
+	padding: 30px;
+	text-align: center;
+	background-color: #27ae60;
+	font-weight: bolder;
+	font-size: x-large;
+}
+
+.imagereseaux {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.facebook, .twitter {
+	width: 50px;
+}
+  

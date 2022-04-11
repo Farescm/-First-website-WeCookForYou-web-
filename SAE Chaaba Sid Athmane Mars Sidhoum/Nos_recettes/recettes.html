@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nos recettes</title>
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+</head>
+<body>
+	<header>
+		<a href="../Accueil/Index.html"><img src = "../LogoWeCookForYou.png" alt="Logo du site"></a> 
+		<nav>
+			<ul>
+				<li><a href="../Accueil/Index.html">Accueil</a></li>
+				<li> <a href="../Nos_produits/product.html">Nos Packs</a></li>
+				<li><a href="../Contact/Contact.html">Nous contacter</a></li>
+			</ul>           
+		</nav>
+		<a class = "co" href= "../Connexion/Connexion.html">Connexion/Inscription</a> 
+	</header>
+	<section>
+		<div class="container">
+			<div class="up">
+				<a href="index.html" class="logo">Nos recettes</a>
+				<ul>
+					<li><a id="Afficher-tous" class="active">Tous</a>
+					<li><a class="btn-affiche" data-target=".Petit-déjeuner">Petit-déjeuner</a>
+					<li><a  class="btn-affiche" data-target=".Repas">Repas</a>
+					<li><a  class="btn-affiche" data-target=".Dessert">Dessert</a>
+				</ul>
+			</div>
+			<div class="content">
+				<img src="img/repas.png" alt="Le thermomix">
+			</div>
+			<div class="AllRecettes" id="AllRecettes">
+				<label for="touch1" class="button Petit-déjeuner Recette">
+					<img src="Cuisine_img/Pancakes fourrés au chocolat.jpg" title="Pancakes fourrés au chocolat">
+					<ul>
+						<li>300g de farine</li>
+						<li>15g de levure chimique</li>
+					</ul>
+					<ul>
+						<li>2 oeufs</li>
+						<li>50g de beurre mou</li>
+						<li>35cl d lait</li>
+					</ul>
+					<ul>
+						<li>50g de sucre en poudre ou sucre semoule</li>
+					</ul>
+				</label>
+				<input type="checkbox" id="touch1" class="touch"> 
+				<div class="cubpre1">	
+					<p class="description1">Dans la Grèce antique et à Rome, les pancakes étaient faits de farine de blé, d’huile d’olive, de miel et de lait caillé. Les anciens poètes grecs, Cratinus et Magnes ont écrit sur les pancakes dans leur poésie.<br>Temps de préparation: 20 min<a class="button" href="">Lancer</a></p>
+				</div>	
+				<br>
+				<label for="touch2" class="button Petit-déjeuner Recette">
+					<img src="Cuisine_img/PORRIDGE D’ÉTÉ.png" title="PORRIDGE D’ÉTÉ">
+					<ul>
+						<li>12,5 cl de flocons d’avoine</li>
+						<li>35 cl d’eau</li>
+						<li>Une pincée de sel</li>
+					</ul>
+					<ul>
+						<li>Sirop d’érable, d’agave ou sucre</li>
+						<li>Sirop d’érable, d’agave ou sucre</li>
+						<li>Sirop d’érable, d’agave ou sucre</li>
+					</ul>
+					<ul>
+						<li>Toppings</li>
+					</ul>
+				</label>
+				<input type="checkbox" id="touch2" class="touch">
+				<div class="cubpre1">
+					<p class="description1">Une des plus anciennes formes de porridge certaines versions de pain ont été cités Maza présent dans 'puissance dans la Grèce antique, préparé avec un mélange humide et dense qui rappelle la bouillie écossaise, et la pulmentum de étrusque, pâte molle mélangée avec du lait tel qu'il est consommé dessert semblable à la cohérence pudding<br>Temps de préparation : 5 min<a class="button" href="">Lancer</a></p>
+				</div>
+				<br>
+				<label for="touch3" class="button Petit-déjeuner Recette">
+					<img src="Cuisine_img/GREEN GLOW BOWL.png" title="GREEN GLOW BOWL">
+					<ul>
+						<li>50 ml d’eau de coco</li>
+						<li>50 ml d’eau de coco</li>
+						<li>50 ml d’eau de coco</li>
+						<li>1 pomme granny</li>
+					</ul>
+					<ul>
+						<li>1 poignée d’épinards frais</li>
+						<li>1 poignée d’épinards frais</li>
+						<li>Le jus d’un citron vert</li>
+					</ul>
+					<ul>
+						<li>Le jus d’un citron vert</li>
+						<li>1 pincée de curcuma</li>
+						<li>1 càc de poudre de coco (optionnel)</li>
+					</ul>
+				</label>
+				<input type="checkbox" id="touch3" class="touch">
+				<div class="cubpre1">
+					<p class="description1">Ce smoothie est rafraîchissant, parfait pour les beaux jours qui arrivent. C’est un grand plaisir de troquer les petits dej chauds pour des choses plus fraîches !<br>Temps de préparation :  15 minutes<a class="button" href="">Lancer</a>
+					</p>
+				</div>
+				<br>
+				<label for="touch4" class="button Dessert Recette">
+					<img src="Cuisine_img/Pâte à crêpes.webp" title="Pâte à crêpes">
+					<ul>
+						<li>3 oeufs</li>
+						<li>1/2 litre de lait</li>
+						<li>250 g de farine de blé</li>
+					</ul>
+					<ul>
+						<li>1 pincée de sel</li>
+						<li>2 sachets de sucre vanillé</li>
+						<li>2 c. s de rhum</li>
+					</ul>
+				</label>
+				<input type="checkbox" id="touch4" class="touch">
+				<div class="cubpre1">
+					<p class="description1">En Bretagne, c'est au XIIIe siècle que la crêpe a fait son apparition. Le sarrasin, rapporté en France après les croisades en Asie, a permis de confectionner cette fine couche de pâte, de forme ronde. C'est le début de la galette bretonne !<br>Temps de préparatoion : 10mins<a class="button" href="">Lancer</a></p>
+				</div>
+				<br>
+				<label for="touch5" class="button Dessert Recette">
+					<img src="Cuisine_img/Gâteau au yaourt.webp" title="Gâteau au yaourt">
+					<ul>
+						<li>1⁄2 paquet de levure chimique</li>
+						<li>1⁄2 pot d'huile de colza</li>
+						<li>2 pots de sucre semoule</li>
+					</ul>
+					<ul>
+						<li>3 pots de farine</li>
+						<li>1 zeste de citron jaune</li>
+						<li>1 pot de yaourt nature</li>
+					</ul>
+					<ul>
+						<li>2 oeufs</li>
+					</ul>
+				</label>
+				<input type="checkbox" id="touch5" class="touch">
+				<div class="cubpre1">
+					<p class="description1">Le gâteau au yaourt, c’est un fondamental. C’est l’une des rares recettes françaises qui s’exprime en volume et non en poids (même si je donne ici des mesures pesées pour plus de clarté), il est donc très facile à confectionner avec les enfants. Une fois qu’on a la base, on peut y ajouter des fruits, du chocolat, des graines, jouer avec différents types de farines et de sucres…<br>Temps de prépyaration : 45 mins<a class="button" href="">Lancer</a></p>
+				</div>
+				<br>
+				<label for="touch6" class="button Dessert Recette">	
+					<img src="Cuisine_img/Gâteau au chocolat fondant.webp" title="Gâteau au chocolat fondant">
+					<ul>
+						<li>1 Tablette de chocolat 200g</li>
+						<li>3 Oeufs</li>
+						<li>150g Sucre en poudre</li>
+					</ul>
+					<ul>
+						<li>40g Farine</li>
+						<li>200g Beurre</li>
+					</ul>
+				</label>
+				<input type="checkbox" id="touch6" class="touch">
+				<div class="cubpre1">
+					<p class="description1">La recette d’origine se basait sur un coeur de ganache congelé puis intégré dans une pâte à biscuit. Depuis 1981, date de la naissance du fondant, la recette s’est simplifiée et le principe de deux pâtes, deux températures est maintenant souvent délaissé au profit d’une seule pâte à biscuit à forte teneur en chocolat.<br>Temps de préparation : 20 mins<a class="button" href="">Lancer</a></p>
+				</div>
+				<br>
+				<label for="touch7" class="button Repas Recette">
+					<img src="Cuisine_img/Blanquette de veau.webp" alt="Blanquette de veau">
+					<ul>
+						<li>1 kg d'épaule ou de sauté de veau</li>
+						<li>2 carottes</li>
+						<li>1 branche de céleri</li>
+					</ul>
+					<ul>
+						<li>1 oignon</li>
+						<li>1 gousse d'ail</li>
+						<li>50 g de farine</li>
+					</ul>
+				
+					<ul>
+						<li>3 c. à soupe de crème fraîche</li>
+						<li>400 g de champignons de Paris</li>
+						<li>2 jaunes d'oeuf</li>
+					</ul>
+				</label>  
+				<input type="checkbox" id="touch7" class="touch"> 
+				<div class="cubpre1">
+					<p class="description1">L'origine exacte (localisation et date) de la blanquette de veau n'est pas évidente : région lyonnaise, Picardie, Bourgogne, etc...En effet la recette de la blanquette de veau c'est très vite répandu partout en France.A ce jour, son origine géographique régionale reste inconnue.<br>Temps de préparation : 2 h 15<a class="button" href="">Lancer</a></p>
+				</div>
+				<br>
+				<label for="touch8" class="button Repas Recette">
+					<img src="Cuisine_img/Hachis Parmentier.webp" title="Hachis Parmentier">
+					<ul>
+						<li>600 g de bœuf haché</li>
+						<li>30 cl de lait</li>
+						<li>1 carotte</li>
+					</ul>
+					<ul>
+						<li>40 g de fromage râpé</li>
+						<li>1 kg de pommes de terre à purée</li>
+						<li>80 g de beurre</li>
+					</ul>
+					<ul>
+						<li>1,5 l d’eau</li>
+					</ul>
+				</label>
+				<input type="checkbox" id="touch8" class="touch">
+				<div class="cubpre1">
+					<p class="description1">Dégustez un savoureux hachis parmentier préparé avec une belle purée de pommes de terre maison et de la viande de bœuf hachée. Ce plat familial traditionnel tient son nom de l’apothicaire Antoine Parmentier qui a fait goûter ce fameux gratin à Louis XVI car il estimait pouvoir combattre la famine. Peu à peu, le hachis parmentier est devenu l’un des plats proposés dans les brasseries parisiennes.<br>Temps de préparation : 1 h 50<a class="button" href="">Lancer</a></p>
+				</div>
+				<br>
+				<label for="touch9" class="button Repas Recette">
+					<img src="Cuisine_img/Poulet à la moutarde, à l'estragon et aux champignons.webp" title="Poulet à la moutarde, à l'estragon et aux champignons">
+					<ul>
+						<li>1Poulet fermier</li>
+						<li>3cuil. à soupe Moutarde à l’ancienne</li>
+						<li>250g Girolles</li>
+					</ul>
+					<ul>
+						<li>2 échalotes </li>
+						<li>20cl Vin blanc sec</li>
+						<li>2cuil. à soupe Estragon ciselé</li>
+					</ul>
+					<ul>
+						<li>40g Beurre</li>
+						<li>1cuil. à soupe Huile de tournesol</li>
+						<li>Sel</li>
+					</ul>
+				</label>
+				<input type="checkbox" id="touch9" class="touch">
+				<div class="cubpre1">
+					<p class="description1">Le petit poulet à l’estragon, moutarde et champignons qui plait à toute la famille et se cuisine en 2 temps 3 mouvements est devenu un classique de la maison et en plus c’est un plat très doux côté calories, surtout s’il est servi avec des petits légumes,  avec des endives confites…
+					<br>Temps de préparation : 40 min<a class="button" href="">Lancer</a></p>
+				</div>
+			</div>
+			<p class="copyrightText">Copyright © 2022 WeCookForYou. All Right Reserved.</p>
+		</div>
+	</section>
+	<footer>
+		<p>Nous suivre :</p>
+		<br>
+		<div class="imagereseaux">
+			<a href="https://www.facebook.com/profile.php?id=100077142242976" target="_blank"><img class="facebook" src="img/facebook-brands.svg" alt=""></a>
+			<a href="https://twitter.com/WeCookForYou1" target="_blank"><img class="twitter" src="img/twitter-brands.svg" alt=""></a>
+		</div>
+		<br>
+		<p> Copyright © 2022 WeCookForYou. All Right Reserved.</p>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>

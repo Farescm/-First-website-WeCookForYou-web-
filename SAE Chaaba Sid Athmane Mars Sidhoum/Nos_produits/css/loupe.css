@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+* {
+  font-family: pushster;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color:#e0cda9;
+  box-shadow: 0 4px 10px -2px rgb(99, 99, 99);
+  height: 170px;
+}
+
+header img {
+  width: 200px;
+}
+
+header nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 1200px;
+  font-size: 120%;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header li {
+  border: none;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 2rem;
+  text-decoration: none;
+}
+header li a:hover {
+  color:rgb(0, 122, 140);
+  text-decoration:underline;
+}
+    
+.co {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: auto;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 2rem;
+  border: 2px solid black;
+  margin-left: 150px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.co:hover {
+  background-color: orangered;
+  color: white;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+.solo {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.descriptionpack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titrepack {
+  text-decoration: underline;
+}
+.textepack {
+  font-size: x-large;
+  text-align: center;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.acheter {
+  font-size: x-large;
+  border: 2px solid black;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+.acheter:hover {
+  color: white;
+  background-color: orangered;
+  cursor: pointer;
+}
+
+footer {
+  position: relative;
+  top: 200px;
+  padding: 30px;
+  text-align: center;
+  background-color: #e0cda9;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.imagereseaux {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.facebook, .twitter {
+  width: 50px;
+}
+
+
+
+
+

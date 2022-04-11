@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+* {
+  font-family: pushster;
+}
+
+body {
+	margin: 0;
+}
+header {
+	display: flex;
+	align-items: center;
+	background-color:#27ae60;
+	box-shadow: 0 4px 10px -2px rgb(99, 99, 99);
+	height: 170px;
+}
+
+header img {
+	width: 200px;
+} 
+
+.inscription
+{
+		display:flex;
+		justify-content:center;
+		margin-top: 50px;
+}
+form h1
+{
+	color:#FAF2EA;
+	text-align:center;
+	font-size:250%;
+}
+form
+{
+	margin-top:1%;
+	background-color:#7AA95C;
+	padding: 2% 3%;
+	border-radius:1%;
+	min-width:15%;
+}
+form p.inscription-avec{
+	text-align:center;
+	color:#FAF2EA;
+	font-size:150%;
+}
+form .social-media
+{
+	margin-top:-10px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+form .social-media p
+{
+	padding:5px;
+	margin-left:1%;
+	border-style:solid;
+	border-color:#1E0F1C;
+	border-width:1px;
+	border-radius:100%;
+	width:20px;
+	text-align:center;
+	cursor:pointer;
+	border-color:#FAF2EA;
+	background-color:#FAF2EA;
+}
+form .social-media p.google{
+	color:#db4a39;
+}
+form .social-media p.facebook{
+	color:#3b5998;
+}
+form .social-media p.twitter{
+	color:#00acee;
+}
+form p.inscription-email{
+	text-align: center;
+	color:#FAF2EA;
+	font-size:150%;;
+}
+form .inputs{
+	display:flex;
+	flex-direction:column;
+}
+form .inputs input{
+	padding:10px;
+	border-radius:5px;
+	border:none;
+	background-color:#FAF2EA;
+	margin-bottom:10px;
+	outline:none;
+}
+form button{
+	padding: 10px 25px;
+	border:none;
+	border-radius:5px;
+	background-color:#FAF2EA;
+	font-size:15px;
+	outline:none;
+	cursor:pointer;
+}
+
+p a {
+	color: white;
+}
+
+
+
+footer {
+	position: relative;
+	top: 100px;
+	padding: 30px;
+	text-align: center;
+	background-color: #27ae60;
+	font-weight: bolder;
+	font-size: x-large;
+}
+
+.imagereseaux {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.facebook, .twitter {
+	width: 50px;
+}
+  
