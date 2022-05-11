@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+* {
+    font-family: pushster;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color:#D6BCA5;
+    box-shadow: 0 4px 10px -2px rgb(99, 99, 99);
+    height: 170px;
+}
+
+header img {
+    width: 200px;
+}
+
+header nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 1200px;
+    font-size: 120%;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header li {
+    border: none;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color:rgb(0, 122, 140);
+    text-decoration:underline;
+}
+    
+.co {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 2rem;
+    border: 2px solid black;
+    margin-left: 150px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.co:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.partiedumilieu {
+    position: relative;
+    top: 50px;
+    max-width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.presentation {
+    font-size: xx-large;
+    font-weight:lighter;
+    border: 6px solid orangered;
+    border-radius: 2rem;
+    display: block;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    background-color: #D6BCA5;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.imagethermo {
+    width: 700px;
+    height: auto;
+    filter:drop-shadow(.5rem .5rem 1rem black)
+}
+
+.imgBx {
+    float: right;
+	max-width: 400px;
+	animation: animate 5s linear infinite;
+    position: relative;
+    bottom: 100px;
+    margin-right: 150px;
+}
+
+@keyframes animate {
+	0%,100% {
+		transform: translateY(50px);
+	}
+	50% {
+		transform: translateY(150px);
+	}
+}
+
+.lesqualites {
+    display: flex;
+    justify-content: space-around;
+    height: 1000px;
+    position: relative;
+    top: 50px;
+    background-image: url(../Image/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    box-shadow: 5px 0px 0px 5px black;
+}
+
+.image, .image2, .image3 {
+    position: relative;
+    width: 500px; 
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 2em;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 2em;
+}
+
+.image__overlay--primary {
+    background: #D6BCA5;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.lacornue {
+    display: flex;
+    justify-content: space-between;
+}
+
+.QuiSommesNous {
+    position: relative;
+    top: 100px;
+    margin: 15px;
+}
+
+.troisparties {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.premierquisommes, .deuxiemequisommes, .troisiemequisommes {
+    width: 560px;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+.partenaire {
+    font-size: xx-large;
+    position: relative;
+    top: 50px;
+}
+
+.titrequisommesnous{
+    font-size: 80px;
+    text-align: center;
+}
+
+.imagequalite {
+    width: 500px;
+}
+
+.titre {
+    text-align: center;
+    font-size: 40px;
+}
+
+.chrono, .cornue {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 2rem;
+}
+
+footer {
+    position: relative;
+    top: 200px;
+    padding: 30px;
+    text-align: center;
+    background-color: #D6BCA5;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.imagereseaux {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook, .twitter {
+    width: 50px;
+}
+
